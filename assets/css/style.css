@@ -1,0 +1,26 @@
+main {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
+#content-wrap {
+    padding-bottom: 8rem;    /* Footer height */
+}
+
+header, footer, nav {
+    background-color: gainsboro;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 9rem;
+    padding-bottom: 10px;
+}
+

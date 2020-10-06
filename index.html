@@ -11,11 +11,11 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Caleb Walker</title>
+    <title>Caleb Walker - Home</title>
 </head>
 
-<body>
-    <header>
+<div id="page-container">
+    <header id="header">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand" href="#">Caleb Walker</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,72 +37,94 @@
         </nav>
     </header>
 
-    <div id="page-container">
-        <main>
-            <!-- About Me -->
-            <div class="container" id="content-wrap">
-                <div class="row">
-                    <div class="col-sm">
-                        <img src="assets/images/profile.jpeg" alt="Picture of Me" class="img-fluid" width="400">
+    <main id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="assets/images/profile.jpeg" alt="Picture of Me" class="img-fluid rounded img-thumbnail" width="400">
+                </div>
+                <div class="col-md-8">
+                    <h3>About Me</h3>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>
+                                After spending the first 6 years of my career programming industrial equipment as an automation engineer, I have decided
+                                to take my programming and engineering knowledge into the field of web development. I am excited to have the opportunity to 
+                                turn a hobby into a career and expand my creativity in new ways and have enrolled in a coding bootcamp at the University of 
+                                Minnesota this fall. Everything you see on this website and my Github has been self-taught practice.
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-sm">
-                        <h3>About Me</h3>
-                        <br>
-                        <p>
-                            After spending the first 6 years of my career programming industrial equipment as an automation engineer, I have decided
-                            to take my programming and engineering knowledge into the field of web development. I am excited to have the opportunity to 
-                            turn a hobby into a career and expand my creativity in new ways and have enrolled in a coding bootcamp at the University of 
-                            Minnesota this fall. Everything you see on this website and my Github has been self-taught practice.
-                        </p>
-                        <br>
-                        <h6>Familiar With:</h6>
-                        <div class="row">
-                            <div class="col-4">
-                                <ul class="nav flex-column">
-                                    <li class="mb-1">Swift/SwiftUI</a></li>
-                                    <li class="mb-1">Javascript</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-4">
-                                <ul class="nav flex-column">
-                                    <li class="mb-1">HTML</a></li>
-                                    <li class="mb-1">CSS</a></li>
-                                </ul>
-                            </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h6>Familiar With:</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-3"></div>
+                        <div class="col-xs-3">
+                            <ul class="flex-column">
+                                <li class="mb-1">Swift/SwiftUI</a></li>
+                                <li class="mb-1">Javascript</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-3">
+                            <ul class="flex-column">
+                                <li class="mb-1">HTML</a></li>
+                                <li class="mb-1">CSS</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-    
-        </main>
-    
-        <footer>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-4 col-md-2">
-                        <br>
-                        <h2 class="h6">About</h2>
-                        <ul class="nav flex-column">
-                            <li class="mb-1"><a href="index.html" class="text-muted">Home</a></li>
-                            <li class="mb-1"><a href="portfolio.html" class="text-muted">Portfolio</a></li>
-                            <li class="mb-1"><a href="contact.html" class="text-muted">Contact</a></li>
-                        </ul>
-                    </div>
-        
-                    <div class="col-4 col-md-2">
-                        <br>
-                        <h2 class="h6">Social</h2>
-                        <ul class="nav flex-column">
-                            <li class="mb-1"><a href="https://www.linkedin.com/in/caleb-walker-189a4988/" class="text-muted">LinkedIn</a></li>
-                            <li class="mb-1"><a href="https://www.instagram.com/calebkw1/" class="text-muted">Instagram</a></li>
-                            <li class="mb-1"><a href="https://github.com/calebkw91" class="text-muted">Github</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        </div>
 
-    </div>
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-2">
+                    <h6>About</h6>
+                </div>
+                <div class="col-2">
+                    <h6>Social</h6>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-2">
+                    <a href="index.html" class="text-muted">Home</a>
+                </div>
+                <div class="col-2">
+                    <a href="https://www.linkedin.com/in/caleb-walker-189a4988/" target="_blank" class="text-muted">LinkedIn</a>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-2">
+                    <a href="portfolio.html" class="text-muted">Portfolio</a>
+                </div>
+                <div class="col-2">
+                    <a href="https://www.instagram.com/calebkw1/" target="_blank" class="text-muted">Instagram</a>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-2">
+                    <a href="contact.html" class="text-muted">Contact</a>
+                </div>
+                <div class="col-2">
+                    <a href="https://github.com/calebkw91" target="_blank" class="text-muted">Github</a>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </footer>
     
 </body>
 

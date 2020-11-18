@@ -9,8 +9,17 @@ nav {
     background-color: #14213d;
 }
 
+.head-text{
+    color: #fff;
+    margin-right: 20px;
+}
+
 .nav-text{
     color: #fff;
+}
+
+.nav-text:hover{
+    color: #fca311;
 }
 
 html,

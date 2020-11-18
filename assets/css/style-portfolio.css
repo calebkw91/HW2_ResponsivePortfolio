@@ -1,0 +1,10 @@
+.project-border{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fca311;
+}
+
+.project-title{
+    text-decoration: underline;
+    text-decoration-color: #fca311;
+}

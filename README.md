@@ -6,7 +6,7 @@ The purpose of this webpage is to display my skills as a web developer through p
 
 ## Screenshot
 
-![Image](assets/images/homepage_screenshot.png "Portfolio Screenshot")
+![Image](images/homepage_screenshot.png "Portfolio Screenshot")
 
 ## How to View
 
